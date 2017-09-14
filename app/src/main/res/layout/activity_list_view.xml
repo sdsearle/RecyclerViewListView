@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.recyclerviewlistview.ListViewActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Simple List View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/lvSimple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+    <TextView
+        android:text="Custom List View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/lvCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+    <TextView
+        android:text="Custom VH List View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/lvCustomVH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>
